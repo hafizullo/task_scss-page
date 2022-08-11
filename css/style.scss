@@ -10,7 +10,7 @@
     margin: 0 auto;
 }
 body{
-    background-color: rgb(54, 63, 140);
+    background-color: rgb(65, 57, 101);
 }
 .header{
     margin-top: 50px;
@@ -24,6 +24,7 @@ body{
     font-size: 50px;
     color: white;
     margin-bottom: 18px;
+    letter-spacing: 3px;
 }
 .header__content{
     background-color: orange;
@@ -39,7 +40,8 @@ body{
 .header_box-card{
     width: 360px;
     height: 500px;
-    background-color: rgb(93, 93, 176);
+    background-color: rgb(110, 99, 160);
+    border-radius: 5px;
 }
 .header__box__card-title{
     color: orange;
@@ -49,11 +51,20 @@ body{
 .header__box__card-paragraf{
     text-align: justify;
     padding: 20px 40px 20px 40px;
+    color: white;
 }
 .header__box__card_button{
     width: 120px;
     height: 40px;
     margin-right: 160px;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: rgb(65, 57, 101);
+    font-weight: bold;
+    font-size: 14px;
 }
 .header_footer{
    color: white;
